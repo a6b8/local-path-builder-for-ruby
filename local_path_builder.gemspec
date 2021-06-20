@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["a6b8"]
   spec.email         = ["hello@13plu4.com"]
 
-  spec.summary       = "Build all paths to local files and folders."
-  spec.description   = "Usefull helper to build all paths to local files and folders."
+  spec.summary       = "Build all paths in one hash to local files and folders."
+  spec.description   = "Usefull helper to build all paths in one hash to local files and folders."
   spec.homepage      = "https://github.com/a6b8/local-path-builder-for-ruby"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
