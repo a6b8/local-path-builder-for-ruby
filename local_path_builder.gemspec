@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = "local_path_builder"
   spec.version       = LocalPathBuilder::VERSION
   spec.authors       = ["a6b8"]
-  spec.email         = ["andreasbanholzer@me.com"]
+  spec.email         = ["hello@13plu4.com"]
 
   spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
   spec.description   = "TODO: Write a longer description or delete this line."
