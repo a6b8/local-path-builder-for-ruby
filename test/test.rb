@@ -1,8 +1,9 @@
+require '../lib/local_path_builder'
   
-  require '../lib/local_path_builder'
-  
-  hash = LocalPathBuilder.helper()
+struct = LocalPathBuilder.helper()
 
-  LocalPathBuilder.generate( hash[:path], 1 )
-
-  puts hash[:path][:children][:converted][:children][:tsv_folder][:files][:tsv][:full]
+[ :silent, :hash, :path, :both ].each do | key |
+    puts "#{key.to_s.upcase}: "
+    LocalPathBuilder.generate( struct[:path], key )
+    puts
+end

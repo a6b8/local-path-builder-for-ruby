@@ -72,19 +72,19 @@ module LocalPathBuilder
     }
       
     case status
-      when 0
+      when :silent
         mode[:general] = false
         mode[:hash] = false
         mode[:path] = false
-      when 1
+      when :hash
         mode[:general] = true
         mode[:hash] = true
         mode[:path] = false
-      when 2
+      when :path
         mode[:general] = true
         mode[:hash] = false
         mode[:path] = true
-      when 3
+      when :both
         mode[:general] = true
         mode[:hash] = true
         mode[:path] = true
