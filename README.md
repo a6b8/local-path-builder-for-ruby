@@ -11,16 +11,16 @@ Usefull helper to build all paths in one hash to local files and folders.
 </a>
 <br>
 
-1. [Quickstart](#quickstart)<br>
-2. [Setup](#setup)<br>
-3. [Methods](#methods)<br>
-4. [Tree Structure](#tree-structure)<br>
-5. [Console](#console)<br>
-6. [Contributing](#contributing)<br>
-7. [Limitations](#limitations)<br>
-8. [License](#license)<br>
-9. [Code of Conduct](#code-of-conduct)<br>
-10. [Support my Work](#support-my-work)<br>
+1. [Quickstart](#quickstart) 
+2. [Setup](#setup)
+3. [Methods](#methods)
+4. [Tree Structure](#tree-structure)
+5. [Console](#console)
+6. [Contributing](#contributing)
+7. [Limitations](#limitations)
+8. [License](#license)
+9. [Code of Conduct](#code-of-conduct)
+10. [Support my Work](#support-my-work)
 
 <br>
 <br>
