@@ -54,7 +54,12 @@ Or install it yourself as:
 
     $ gem install local_path_builder
 
-![](https://ruby-gem-downloads-badge.herokuapp.com/local_path_builder?type=total)
+
+On Rubygems: 
+- Gem: https://rubygems.org/gems/local_path_builder
+- Profile: https://rubygems.org/profiles/a6b8
+
+
 <br>
 <br>
 <a href="#table-of-contents">
@@ -88,7 +93,7 @@ Or install it yourself as:
 | **salt** | ```String``` | No | ```'1624262108'``` | Use salt to create unique filenames. |
 
 **Return**<br>
-Hash (Please refer to Console Output)
+Hash (See also Console Output)
 
 <br>
 <br>
