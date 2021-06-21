@@ -4,6 +4,6 @@ struct = LocalPathBuilder.helper()
 
 [ :silent, :hash, :path, :both ].each do | key |
     puts "#{key.to_s.upcase}: "
-    LocalPathBuilder.generate( struct[:path], key )
+    LocalPathBuilder.generate( struct, key )
     puts
 end

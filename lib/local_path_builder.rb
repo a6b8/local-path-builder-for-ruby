@@ -10,52 +10,50 @@ module LocalPathBuilder
 
   def self.helper()
     result = {
-      :path => {
-        :root => './',
-        :name => '1',
-        :full => nil,
-        :children => {
-          :entry => {
-            :name => '0-entry',
-            :full => nil,
-            :files => {
-              :tsv => {
-                :name => 'rest{{SALT}}.tsv',
-                :full => nil
+      root: './',
+      name: '1',
+      full: nil,
+      children: {
+        entry: {
+          name: '0-entry',
+          full: nil,
+          files: {
+            tsv: {
+              name: 'rest-{{SALT}}.tsv',
+              full: nil
+            }
+          }
+        },
+        converted: {
+          name: '1-converted',
+          full: nil,
+          children: {
+              json_folder: {
+                  name: '0-json',
+                  full: nil,
+                  files: {
+                      json: {
+                          name: 'data-{{SALT}}.json',
+                          full: nil
+                      }
+                  }
+              },
+              tsv_folder: {
+                  name: '0-tsv',
+                  full: nil,
+                  files: {
+                      tsv: {
+                          name: 'data-{{SALT}}.json',
+                          full: nil
+                      }
+                  }
               }
-            }
           },
-          :converted => {
-            :name => '1-converted',
-            :full => nil,
-            :children => {
-                :json_folder => {
-                    :name => '0-json',
-                    :full => nil,
-                    :files => {
-                        :json => {
-                            :name => 'data{{SALT}}.json',
-                            :full => nil
-                        }
-                    }
-                },
-                :tsv_folder => {
-                    :name => '0-tsv',
-                    :full => nil,
-                    :files => {
-                        :tsv => {
-                            :name => 'data{{SALT}}.json',
-                            :full => nil
-                        }
-                    }
-                }
-            },
-            :files => {
-              :json => {
-                :name => 'data{{SALT}}.json',
-                :full => nil
-              } 
-            }
+          files: {
+            json: {
+              name: 'data-{{SALT}}.json',
+              full: nil
+            } 
           }
         }
       }
@@ -204,93 +202,6 @@ module LocalPathBuilder
   end
   
   def self.helper_insert_salt( salt, str )
-    if salt[ 0, 1 ] == ''
-      
-    else
-      if salt[ 0, 1 ] == '-'
-      else
-        salt = '-' + salt      
-      end
-    end
-
-    str = str.gsub( "{{SALT}}", salt )
-    return str
-  end
-
-  def self.helper_parse_path( str )
-    if str[ str.length - 1, 1 ] != '/'
-      str = str + '/'
-    end
-    return str
-  end
-
-  def self.draw_obj_line_edge( l, offset )
-      str = ''
-      for i in 1..( ( l - 1 ) * offset )
-        str += ' '
-      end
-      if l > 1
-        str += "┗"
-        str += "━"
-        str += " "
-      else
-        str += '    '
-      end
-      return str
-  end
-  
-  def self.draw_obj_path_local( str, l, offset )
-    result = ''
-    for i in 0..( ( l - 1 ) * offset )
-      result += ' '
-    end
-    result = result[ 1, result.length ]
-    
-    if str.index('.') != nil
-      result += 'File: '
-    else
-      result += 'Folder: '
-    end
-    result += str
-    return result
-  end
-
-  def self.helper_obj_path( name, salt, k, f=nil )
-    str = ''
-    str += self.draw_obj_line_edge( name[ 1, name.length ].to_i, 4 )
-    str += ''
-    str += 'hash[:path]'
-    if k.length == 0
-
-    else
-      for i in 0..k.length-1
-        str += '[:children]'
-        str += '[:'
-        str += k[ i ].to_s
-        str += ']'      
-      end
-    end
-
-    if !f.nil?
-      str += '[:files][:'
-      str += f.to_s
-      str += '][:full]'    
-    else
-      str += '[:full]'
-    end
-    return str
-  end
-  
-  def self.helper_insert_salt( salt, str )
-    if salt[ 0, 1 ] == ''
-      
-    else
-      if salt[ 0, 1 ] == '-'
-      else
-        salt = '-' + salt      
-      end
-    end
-
     str = str.gsub( "{{SALT}}", salt )
     return str
   end
