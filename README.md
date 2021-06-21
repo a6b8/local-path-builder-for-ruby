@@ -13,7 +13,7 @@ Usefull helper to build all paths in one hash to local files and folders.
 
 1. [Quickstart](#quickstart)<br>
 2. [Setup](#setup)<br>
-3. [Parameters](#parameters)<br>
+3. [Methods](#methods)<br>
 4. [Tree Structure](#tree-structure)<br>
 5. [Console](#console)<br>
 6. [Contributing](#contributing)<br>
@@ -32,9 +32,8 @@ Usefull helper to build all paths in one hash to local files and folders.
     require '../lib/local_path_builder'
     
     struct = LocalPathBuilder.helper()
-    LocalPathBuilder.generate( struct, key )
+    LocalPathBuilder.generate( struct, :both )
 ```
-<br>
 <br>
 <br>
 <a href="#table-of-contents">
@@ -55,6 +54,7 @@ Or install it yourself as:
 
     $ gem install local_path_builder
 
+![](https://ruby-gem-downloads-badge.herokuapp.com/local_path_builder?type=total)
 <br>
 <br>
 <a href="#table-of-contents">
@@ -159,7 +159,9 @@ Console stays silent.
 ### :hash
 Console log all variables which are available.
 
-```ruby
+```txt
+    LocalPathBuilder.generate( struct, :hash )
+
     TREE OVERVIEW
         hash[:path][:full]
         ┗━ hash[:path][:children][:entry][:full]
@@ -176,7 +178,9 @@ Console log all variables which are available.
 ### :path
 Console log all path which were created.
 
-```ruby
+```txt
+    LocalPathBuilder.generate( struct, :path )
+
     TREE OVERVIEW
         ./1/
             ./1/0-entry/
@@ -193,7 +197,9 @@ Console log all path which were created.
 ### :both
 Console log hash variable and the corresponding file path.
 
-```ruby
+```txt
+    LocalPathBuilder.generate( struct, :both )
+
     TREE OVERVIEW
         hash[:path][:full]
         ./1/
@@ -229,8 +235,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/s
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/limitations.svg" height="55px" name="limitations" alt="Limitations">
 </a>
 - Only three levels of folders are supported
-
-<br>
+  
 <br>
 <br>
 <a href="#table-of-contents">
