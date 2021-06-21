@@ -94,7 +94,6 @@ On Rubygems:
 
 **Return**<br>
 Hash (See also Console Output)
-
 <br>
 <br>
 <br>
@@ -255,7 +254,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/code-of-conduct.svg" height="55px" name="code-of-conduct" alt="Code of Conduct">
 </a>
     
-Everyone interacting in the Statosio project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/local-path-builder-for-ruby/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the LocalPathBuilder project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/local-path-builder-for-ruby/blob/master/CODE_OF_CONDUCT.md).
 <br>
 <br>
 <br>
