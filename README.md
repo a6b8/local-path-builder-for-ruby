@@ -3,7 +3,6 @@
 </a>
 
 Usefull helper to build all paths in one hash to local files and folders.
-
 <br>
 <br>
 <br>
@@ -11,6 +10,7 @@ Usefull helper to build all paths in one hash to local files and folders.
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/table-of-contents.svg" height="55px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
+
 1. [Quickstart](#quickstart)<br>
 2. [Setup](#setup)<br>
 3. [Parameters](#parameters)<br>
