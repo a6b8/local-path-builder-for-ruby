@@ -29,7 +29,7 @@ Usefull helper to build all paths in one hash to local files and folders.
 </a>
 
 ```ruby
-    require '../lib/local_path_builder'
+    require 'local_path_builder'
     
     struct = LocalPathBuilder.helper()
     LocalPathBuilder.generate( struct, :both )
@@ -69,6 +69,8 @@ On Rubygems:
 ### .helper()
 
 ```ruby
+    require 'local_path_builder'
+
     hash = LocalPathBuilder.helper()
     # => { path: 
 ```
