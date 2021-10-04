@@ -12,39 +12,31 @@ module LocalPathBuilder
     result = {
       root: './',
       name: '1',
-      full: nil,
       children: {
         entry: {
           name: '0-entry',
-          full: nil,
           files: {
             tsv: {
               name: 'rest-{{SALT}}.tsv',
-              full: nil
             }
           }
         },
         converted: {
           name: '1-converted',
-          full: nil,
           children: {
               json_folder: {
                   name: '0-json',
-                  full: nil,
                   files: {
                       json: {
                           name: 'data-{{SALT}}.json',
-                          full: nil
                       }
                   }
               },
               tsv_folder: {
                   name: '0-tsv',
-                  full: nil,
                   files: {
                       tsv: {
                           name: 'data-{{SALT}}.json',
-                          full: nil
                       }
                   }
               }
@@ -52,7 +44,6 @@ module LocalPathBuilder
           files: {
             json: {
               name: 'data-{{SALT}}.json',
-              full: nil
             } 
           }
         }
