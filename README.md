@@ -6,7 +6,7 @@ Usefull helper to build all paths in one hash to local files and folders.
 
 <br>
 
-<a href="#hadline">
+<a href="#headline">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
