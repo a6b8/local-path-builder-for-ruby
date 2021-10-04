@@ -15,7 +15,7 @@ Usefull helper to build all paths in one hash to local files and folders.
 2. [Setup](#setup)
 3. [Methods](#methods)
 4. [Tree Structure](#tree-structure)
-5. [Console](#console)
+5. [Console Output](#console)
 6. [Contributing](#contributing)
 7. [Limitations](#limitations)
 8. [License](#license)
