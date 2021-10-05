@@ -6,8 +6,8 @@ require 'fileutils'
 
 module LocalPathBuilder
   class Error < StandardError; end
-  # Your code goes here...
 
+  
   def self.helper()
     result = {
       root: './',
