@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/local-path-builder.svg" height="45px" name="headline" alt="# Local Path Builder for Ruby">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/headline.svg" height="45px" name="# Local Path Builder for Ruby" alt="Local Path Builder for Ruby">
 </a>
 
 Usefull helper to build all paths in one hash to local files and folders.
