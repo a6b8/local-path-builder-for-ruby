@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/headline.svg" height="45px" name="# Local Path Builder for Ruby" alt="Local Path Builder for Ruby">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/local-path-builder-for-ruby.svg" height="45px" name="# Local Path Builder for Ruby" alt="Local Path Builder for Ruby">
 </a>
 
 Usefull helper to build all paths in one hash to local files and folders.
@@ -7,7 +7,7 @@ Usefull helper to build all paths in one hash to local files and folders.
 <br>
 
 <a href="#headline">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/table-of-contents.svg" height="38px" name="table-of-contents" alt="Table of Contents">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="45px" name="table-of-contents" alt="Table of Contents">
 </a>
 <br>
 
@@ -25,7 +25,7 @@ Usefull helper to build all paths in one hash to local files and folders.
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/quickstart.svg" height="38px" name="quickstart" alt="Quickstart">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/quickstart.svg" height="45px" name="quickstart" alt="Quickstart">
 </a>
 
 ```ruby
@@ -38,7 +38,7 @@ LocalPathBuilder.generate( struct, :both )
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/setup.svg" height="38px" name="setup" alt="Setup">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/setup.svg" height="45px" name="setup" alt="Setup">
 </a>
 
 Add this line to your application's Gemfile:
@@ -63,7 +63,7 @@ On Rubygems:
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/methods.svg" height="38px" name="methods" alt="Methods">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/methods.svg" height="45px" name="methods" alt="Methods">
 </a>
 
 ### .helper()
@@ -100,7 +100,7 @@ Hash (See also Console Output)
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/tree-structure.svg" height="38px" name="tree-structure" alt="Tree Structure">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/tree-structure.svg" height="45px" name="tree-structure" alt="Tree Structure">
 </a>
 
 A struct input is required to generate all paths. Use the following as reference to design your own tree
@@ -154,7 +154,7 @@ A struct input is required to generate all paths. Use the following as reference
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/console.svg" height="38px" name="console" alt="Console Output">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/console.svg" height="45px" name="console" alt="Console Output">
 </a>
 
 The second parameter of the ```.generate()``` function expects a symbol. you can choose between ```:silent```, ```:hash```, ```path``` and ```both```. 
@@ -230,7 +230,7 @@ TREE OVERVIEW
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/contributing.svg" height="38px" name="contributing" alt="Contributing">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/contributing.svg" height="45px" name="contributing" alt="Contributing">
 </a>
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/statosio-for-wordpress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/a6b8/statosio/blob/master/CODE_OF_CONDUCT.md).
@@ -238,7 +238,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/s
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/limitations.svg" height="38px" name="limitations" alt="Limitations">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/limitations.svg" height="45px" name="limitations" alt="Limitations">
 </a>
 
 - Only three levels of folders are supported
@@ -246,7 +246,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/s
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/license.svg" height="38px" name="license" alt="License">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="45px" name="license" alt="License">
 </a>
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
@@ -254,7 +254,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 <br>
 
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/code-of-conduct.svg" height="38px" name="code-of-conduct" alt="Code of Conduct">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/code-of-conduct.svg" height="45px" name="code-of-conduct" alt="Code of Conduct">
 </a>
     
 Everyone interacting in the LocalPathBuilder project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/a6b8/local-path-builder-for-ruby/blob/master/CODE_OF_CONDUCT.md).
@@ -262,7 +262,7 @@ Everyone interacting in the LocalPathBuilder project's codebases, issue trackers
 <br>
 
 <a href="#table-of-contents">
-<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/docs/local-path-builder-for-ruby/readme/headlines/support-my-work.svg" height="38px" name="support-my-work" alt="Support my Work">
+<img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="45px" name="star-us" alt="Star us">
 </a>
-    
-Donate by [https://www.paypal.com](https://www.paypal.com/donate?hosted_button_id=XKYLQ9FBGC4RG)
+
+Please ⭐️ star this Project, every ⭐️ star makes us very happy!
