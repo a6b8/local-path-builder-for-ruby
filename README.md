@@ -6,6 +6,12 @@ Usefull helper to build all paths in one hash to local files and folders.
 
 <br>
 
+<a href="#examples">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/examples.svg" height="45px" name="examples" alt="Examples">
+</a>
+<br>
+
+
 <a href="#headline">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/table-of-contents.svg" height="45px" name="table-of-contents" alt="Table of Contents">
 </a>
